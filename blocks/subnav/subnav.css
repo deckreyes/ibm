@@ -1,0 +1,41 @@
+.subnav {
+    list-style: none;
+    display: flex;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+    font-size: 14px;
+    color: rgb(62, 63, 63);
+    border: 1px inset #ccc;
+    border-left-color: transparent;
+    border-right-color: transparent;
+   }
+
+  .subnav :first-child img {
+    width: 200px;
+    height: auto;
+ }
+
+ .subnav div:nth-child(2) {
+    font-size: 14px;
+    padding-top: 9px;
+    }
+
+ .subnav div:nth-child(3) {
+      font-size: 14px;
+      padding-top: 9px;
+      }
+
+ .subnav div:nth-child(4) {
+        font-size: 14px;
+        padding-top: 9px;
+        }
+
+ .subnav div:nth-child(5) {
+          font-size: 14px;
+          padding-top: 9px;
+          }
+
+ .subnav div:nth-child(6) {
+            font-size: 14px;
+            padding-top: 9px;
+            }

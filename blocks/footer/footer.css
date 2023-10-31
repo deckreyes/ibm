@@ -1,8 +1,9 @@
 footer {
   padding: 2rem;
-  background-color: var(--overlay-background-color);
+  background-color: rgb(38, 38, 38);
   font-size: var(--body-font-size-s);
 }
+
 
 footer .footer {
   max-width: 1200px;
@@ -11,4 +12,28 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+}
+
+footer .footer img{
+  width: 150px;
+  height: 65px;
+}
+
+footer .footerone {
+  color: white;
+  font-size: 14px;
+
+  display: flex;
+  align-items: flex-start; 
+  flex-direction: row; 
+  flex-wrap: nowrap; 
+
+  height: 100%;
+  padding: 15px;
+  gap: 250px;
+
+  border: 1px inset white;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-right: transparent;
 }

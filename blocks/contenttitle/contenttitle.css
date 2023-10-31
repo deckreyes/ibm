@@ -1,0 +1,26 @@
+.contenttitle {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    color: grey; 
+    font-size: 30px;
+  }
+
+
+.contenttitle div:nth-child(2) {
+    font-size: 15px;
+    font-style: italic;
+    color: gray;
+ }
+
+ .contenttitle div:nth-child(3) {
+  padding-top: 10px;
+  font-size: 13px;
+  color: grey;
+}
+
+.contenttitle div:nth-child(4) img {
+  padding-top: 10px;
+  width: 100%;    
+}

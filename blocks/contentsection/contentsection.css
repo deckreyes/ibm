@@ -1,0 +1,31 @@
+.contentsection {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 770px;
+    padding-left: 110px;
+    padding-right: 50px;
+    border: 1px inset #ccc;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    
+  }
+
+.contentsection :first-child {
+    font-size: 15px;
+ }
+
+ .contentsection :first-child img {
+   width: 220px;
+   float: left;
+   margin: 0 15px 0 0;
+}
+ .contentsection div:nth-child(2) {
+  padding-bottom: 45px;
+}
+
+.contentsection div:nth-child(2) img{
+  width: 150px;
+}
