@@ -52,7 +52,7 @@ main .form label {
 
 main .form label.required::after {
   content: "*";
-  color: red;
+  color: blue;
   padding-left: 5px;
 }
 
@@ -93,8 +93,8 @@ main .form .form-checkbox-wrapper label {
 
 main .form .button {
   cursor: pointer;
-  background: red;
-  border: 1px solid #dd1f25;
+  background: blue;
+  border: 1px solid blue;
   color: #fff;
   padding: 11px 30px;
   border-radius: 5px;
