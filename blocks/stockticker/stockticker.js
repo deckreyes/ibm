@@ -7,7 +7,7 @@ var stockSymbol = searchSymbol.match(/\S+/g);
 if (stockSymbol[1] === undefined){
 
       // Do not display anything.
-      document.getElementById('stock-price-information').textContent = 'Stock Price End Point currently unavailable :(';
+      document.getElementById('stock-price-information').textContent = 'Wait for it...';
       document.getElementById('stock-price').textContent = '';
       document.getElementById('high-price').textContent = '';
       document.getElementById('low-price').textContent = '';
