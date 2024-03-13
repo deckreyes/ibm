@@ -1,0 +1,8 @@
+.video-placement {
+    background-color: var(--background-color);
+  }
+  
+  .video-embed div:first-child{
+    visibility: hidden;
+    padding: 0%;
+  }
