@@ -249,3 +249,7 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+
+h3#make-sure-that-the-title-is-less-than-50-words {
+  visibility: hidden;
+}

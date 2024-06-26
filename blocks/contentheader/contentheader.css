@@ -1,0 +1,18 @@
+.contentheader {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    font-size: 15px;
+    color: gray;
+  }
+
+.contentheader div:nth-child(2) {
+    font-size: 15px;    
+    color: gray;
+    font-style: italic;
+}
+
+.contentheader div:nth-child(4) img {
+  width: 100%;    
+}

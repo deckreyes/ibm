@@ -1,26 +1,31 @@
 .contenttitle {
+   margin-top: -75px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    width: 1000px;
+    width: 900px;
     color: grey; 
-    font-size: 30px;
+    font-size: 30px;  
   }
 
-
+  
 .contenttitle div:nth-child(2) {
-    font-size: 15px;
-    font-style: italic;
-    color: gray;
+    visibility: hidden;
  }
 
  .contenttitle div:nth-child(3) {
+    font-size: 15px;
+    font-style: italic;
+    color: gray;
+}
+
+ .contenttitle div:nth-child(4) {
   padding-top: 10px;
   font-size: 13px;
   color: grey;
 }
 
-.contenttitle div:nth-child(4) img {
+.contenttitle div:nth-child(5) img {
   padding-top: 10px;
   width: 100%;    
 }
